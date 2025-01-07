@@ -1,0 +1,161 @@
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 10px 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+form {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+form h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+form input {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #28a745;
+}
+
+form button:hover {
+  background-color: #218838;
+}
+
+form input,
+form select {
+  display: block;
+  width: calc(100% - 20px);
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+td {
+  background-color: #f4f4f4;
+}
+
+.filterInputs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.filterInputs input {
+  flex: 1;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.filterInputs input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+#search {
+  width: calc(100% - 20px);
+  padding: 10px; 
+  padding-left: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#search:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+#search::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+
+#search:hover {
+  border-color: #999;
+}
+
+
+.error-message {
+  color: #dc3545; 
+  font-size: 14px; 
+  font-weight: bold; 
+  margin-top: 10px; 
+  background-color: #f8d7da; 
+  border: 1px solid #f5c6cb; 
+  padding: 10px; 
+  border-radius: 5px; 
+}
