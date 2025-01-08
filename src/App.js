@@ -146,6 +146,7 @@ function App() {
        onClick={() => {
         setShowAddEmployee(!showAddEmployee)
         setShowAddDepartment(false) 
+        Seterror('');
       } 
         }>
         Add Employee
@@ -153,7 +154,9 @@ function App() {
       <button 
       onClick={() =>  {
         setShowAddDepartment(!showAddDepartment)
-        setShowAddEmployee(false)}
+        setShowAddEmployee(false)
+         Seterror('');
+      }
       }>
         Add Department
         </button>
