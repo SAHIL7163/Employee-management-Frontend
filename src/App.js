@@ -88,10 +88,6 @@ function App() {
     e.preventDefault();
     console.log(employee);
 
-       if (isNaN(employee.id) || employee.id.trim() === "") {
-        Seterror("ID must be a numerical value.");
-         return; 
-       }
       try{
         const response = await axios.post("/employees", employee);
         console.log(response.data);
@@ -121,11 +117,6 @@ function App() {
   const departmentsubmit = async (e) => {
     e.preventDefault();
     console.log(department);
-
-        if (isNaN(department.id) || department.id.trim() === "") {
-        Seterror("ID must be a numerical value.");
-        return; 
-        }
 
       try{
         const response = await axios.post("/departments",department );
