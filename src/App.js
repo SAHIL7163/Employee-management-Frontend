@@ -146,6 +146,11 @@ function App() {
        onClick={() => {
         setShowAddEmployee(!showAddEmployee)
         setShowAddDepartment(false) 
+         setDepartment({
+          id : '',
+          name: '',
+          description: '',
+        }) 
         Seterror('');
       } 
         }>
@@ -155,6 +160,12 @@ function App() {
       onClick={() =>  {
         setShowAddDepartment(!showAddDepartment)
         setShowAddEmployee(false)
+        setEmployee({
+          id : '',
+          name: '',
+          department: '',
+          address: '',
+        })
          Seterror('');
       }
       }>
